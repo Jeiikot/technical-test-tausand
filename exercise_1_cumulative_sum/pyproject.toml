@@ -1,0 +1,14 @@
+[project]
+name = "cumulative-sum-graph"
+version = "0.1.0"
+description = "PyQt5 application that plots a live cumulative sum of keyboard inputs (keys 1-5) over a 30-second sliding window."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt5==5.15.11",
+    "pyqtgraph==0.14.0",
+    "numpy==2.4.3",
+]
+
+[project.scripts]
+cumulative-sum = "main:main"
